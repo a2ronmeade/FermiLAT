@@ -1,0 +1,5 @@
+peaks located at (days): [ 47.44175515  98.53287608 149.62399701 208.0138495  251.80623887
+ 310.19609136]
+time between each peak (days): [51.09112093 51.09112093 58.38985249 43.79238937 58.38985249]
+average time between peaks (days): 52.55086724246581
+from a quick google search: 53.4 days is the precession period of the spacecraft. this matches the average period time well.

@@ -83,7 +83,7 @@ plt.legend()
 plt.savefig(f"images/{focus}/light_curve_peaks.png", dpi=300)
 plt.show()
 
-with open("peaks_output.txt", "w") as f:
+with open(f"peaks_output_{focus}.txt", "w") as f:
     f.write(f"peaks located at (days): {t0_list}\n")
     f.write(f"time between each peak (days): {periods}\n")
     f.write(f"average time between peaks (days): {np.mean(periods)}\n")
