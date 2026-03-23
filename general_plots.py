@@ -109,3 +109,5 @@ plt.title(f"Zoomed Fermi-LAT Gamma-ray Intensity Map: {focus}")
 plt.savefig(f"images/{focus}/zoom_heatmap.png", dpi=300)
 
 plt.show()
+
+print("hello world")
